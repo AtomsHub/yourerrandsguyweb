@@ -165,7 +165,7 @@ const Home = () => {
           <View className="flex-row gap-x-3 items-center">
             <OptimizedImage
               source={{
-                uri: `https://yourerrandsguy.com.ng/${personalDetails.image}`,
+                uri: personalDetails.image,
               }}
               fallbackSource={images.avatar}
               containerStyle="w-[45px] h-[45px] rounded-full overflow-hidden bg-white items-center justify-center"

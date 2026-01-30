@@ -84,7 +84,7 @@ const Account = () => {
               {/* Profile Avatar with Status Indicator */}
               <OptimizedImage
                 source={{
-                  uri: `https://yourerrandsguy.com.ng/${personalDetails.image}`,
+                  uri: personalDetails.image,
                 }}
                 fallbackSource={images.avatar}
                 containerStyle="w-32 h-32 rounded-full  overflow-hidden bg-white items-center justify-center"

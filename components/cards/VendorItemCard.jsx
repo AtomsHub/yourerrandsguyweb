@@ -47,7 +47,7 @@ const VendorItemCard = ({ item, onEdit, onDelete, serviceType }) => {
       <View className="items-center mb-3">
         <View className="w-24 h-24 rounded-full overflow-hidden bg-gray-100 shadow-md">
           <OptimizedImage
-            source={{ uri: `https://yourerrandsguy.com.ng/${item.image}` }}
+            source={{ uri: item.image }}
             className="w-full h-full"
             resizeMode="cover"
           />
