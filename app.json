@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "YourErrandGuy Vendor",
+    "slug": "yourerrandguy-vendor",
+    "scheme": "yourerrandguy-vendor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ccf2e0"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atomhubs.yourerrandguyvendor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.atomhubs.yourerrandguyvendor",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "POST_NOTIFICATIONS",
+        "WAKE_LOCK"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "da86036b-d811-4e32-85e6-334732972339"
+      }
+    }
+  }
+}

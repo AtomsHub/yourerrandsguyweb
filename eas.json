@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 14.5.0",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://yourerrandsguy.com.ng/api/",
+        "EXPO_PUBLIC_PAYSTACK_SECRET_KEY": "pk_test_236ec0016845ba7638dc6314982788370eb021fd"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://yourerrandsguy.com.ng/api/",
+        "EXPO_PUBLIC_PAYSTACK_SECRET_KEY": "pk_live_993c2d39e670dff45dcd68e195f362c301c1c3f1"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://yourerrandsguy.com.ng/api/",
+        "EXPO_PUBLIC_PAYSTACK_SECRET_KEY": "pk_live_993c2d39e670dff45dcd68e195f362c301c1c3f1"
+      }
+    }
+  }
+}

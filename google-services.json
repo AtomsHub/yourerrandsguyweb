@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "204449119964",
+    "project_id": "yourerrandsguyy-6f668",
+    "storage_bucket": "yourerrandsguyy-6f668.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204449119964:android:11e78aac9a5b78231ebe19",
+        "android_client_info": {
+          "package_name": "com.atomhubs.yourerrandguy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8ANPJORr709a2xOm34I4gNOB0CLVQZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204449119964:android:8f00fbf76758de4f1ebe19",
+        "android_client_info": {
+          "package_name": "com.atomhubs.yourerrandguyvendor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb8ANPJORr709a2xOm34I4gNOB0CLVQZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
